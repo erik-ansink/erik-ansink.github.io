@@ -1,0 +1,91 @@
+
+
+
+body {
+  margin: 0;
+  font-family: Helvetica Neue Light, Arial, Helvetica, sans-serif;
+  font-size: 1.0em;
+  background: rgba(39,43,52,1); /* Green background with 30% opacity */
+  overflow-x:hidden;
+  color: rgba(255,255,218,1);
+}
+
+h4{
+	font-family: 'Abel';
+	font-size: 2em;
+	font-weight: normal;
+	color: rgb(120,170,190);
+	margin:40 0 20 0;
+}
+
+a{
+	color: rgb(250,160,30);
+	text-decoration: none;
+}
+au{	
+  color: rgba(255,255,218,1);
+}
+so{	
+  color: rgba(255,255,218,1);
+}
+
+
+
+
+
+
+/* Style the container */
+.container{
+	width:60%;
+	max-width:800px;
+	margin:0 auto;
+	padding: 20px 5px;
+	text-align: left;
+}
+
+/* Style the header */
+.header{
+	padding:10px;
+}
+
+/* Create equal columns that floats next to each other */
+.column{
+	float:left;
+	width:50%;
+	padding:10px;
+}
+
+/* Style the footer */
+.footer{
+	clear: both;
+	padding:10px;
+}
+
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+/* Responsive layout - makes the container wider than 60% */
+@media screen and (max-width: 1000px) {
+    .container {
+	width:75%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+	width:90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+	width:100%;
+    }
+}
+
