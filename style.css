@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
   font-family: Helvetica Neue Light, Arial, Helvetica, sans-serif;
@@ -29,6 +30,40 @@ au{
 so{	
   color: rgba(255,255,218,1);
 }
+author{
+	color: rgb(40,149,40); 
+	text-decoration: none;
+	}
+time{
+	color: rgb(150,165,150); 
+	}
+img{
+	border-radius: 20px;
+	border:1px solid #336699;
+	}
+.picture{
+	width: 150px;
+	min-height: 130px;
+	}
+.past {
+	color: rgb(150,165,150);
+	min-height: 130px;
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+table{ 
+	border-collapse:separate; 
+	border-spacing: 0 25px; 
+	}
+td{ 
+	padding: 5px;
+	vertical-align: top;
+	} 
+
+
+
+
 
 /* Style the container */
 .container{
