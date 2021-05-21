@@ -38,8 +38,8 @@ time{
 	color: rgb(150,165,150); 
 	}
 img{
-	border-radius: 20px;
-	border:1px solid #336699;
+	border-radius: 20px 40px 20px 20px ;
+	border:2px solid #ff9f1c;
 	}
 .picture{
 	width: 150px;
