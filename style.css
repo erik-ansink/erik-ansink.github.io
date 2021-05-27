@@ -25,9 +25,13 @@ a{
 	text-decoration: none;
 }
 au{	
-  color: rgba(255,255,218,1);
+  color: rgba(125,125,118,1);
 }
 so{	
+  color: rgba(255,255,218,1);
+  font-style: italic;
+}
+so2{	
   color: rgba(255,255,218,1);
 }
 author{
