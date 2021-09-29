@@ -47,11 +47,6 @@ img{
 	min-height: 130px;
 	}
 .past {
-	color: rgb(150,165,150);
-	min-height: 130px;
-	filter: gray; /* IE6-9 */
-	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 table{ 
 	border-collapse:separate; 
@@ -84,6 +79,12 @@ td{
 .column{
 	float:left;
 	width:50%;
+	padding:10px;
+}
+
+.column2{
+	float:left;
+	width:70%;
 	padding:10px;
 }
 
